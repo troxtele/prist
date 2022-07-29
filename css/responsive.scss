@@ -41,6 +41,12 @@ Screen - 640px
 
   .about_content {
     margin-top: 2rem;
+
+    p,
+    span,
+    li {
+      font-size: 0.85rem;
+    }
   }
   .about_list {
     width: 80%;
@@ -93,8 +99,14 @@ Screen - 400px
       font-size: 1.9rem;
     }
   }
+
   .about_content {
     margin-top: 2rem;
+    p,
+    span,
+    li {
+      font-size: 1rem;
+    }
   }
   .social_links {
     gap: 1.3rem;
