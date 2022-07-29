@@ -54,6 +54,12 @@ Screen - 640px
 Screen - 480px
 ----------------------------------------------------*/
 @media screen and (max-width: 480px) {
+  .container {
+    padding: 0 1.5rem;
+  }
+  .social_links a {
+    font-size: 0.93rem;
+  }
   header {
     padding-bottom: 2rem;
   }
@@ -87,7 +93,7 @@ Screen - 480px
   }
   .about_content {
     margin-top: 3.5rem;
-    gap: 2rem;
+    gap: 1.8rem;
   }
 }
 
@@ -107,13 +113,13 @@ Screen - 400px
   .about_content p,
   .about_content span,
   .about_content li {
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
   .social_links {
-    gap: 1.3rem;
+    gap: 1rem;
   }
   .social_links a {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   .about_content {
     -webkit-box-orient: vertical;
