@@ -269,7 +269,7 @@ main a:nth-of-type(5):hover {
 About section
 ----------------------------------------------------*/
 .about {
-  margin-top: 5rem;
+  padding-top: 5rem;
 }
 
 .about ul {
@@ -322,7 +322,7 @@ About section
 Main Area
 ----------------------------------------------------*/
 footer {
-  margin-top: 9rem;
+  padding-top: 9rem;
   margin-bottom: 3rem;
   text-align: center;
 }
