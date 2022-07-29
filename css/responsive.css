@@ -13,15 +13,12 @@ Screen - 1200px
   .main_top {
     padding-top: 0;
   }
-  main h1 {
+  h1 {
     font-size: 2rem;
     padding: 0;
   }
 }
 
-/*---------------------------------------------------- 
-Screen - 1080px
-----------------------------------------------------*/
 /*---------------------------------------------------- 
 Screen - 640px
 ----------------------------------------------------*/
@@ -43,19 +40,76 @@ Screen - 640px
   .about_content {
     margin-top: 2rem;
   }
+  .about_list {
+    width: 80%;
+  }
 }
 
 /*---------------------------------------------------- 
 Screen - 480px
 ----------------------------------------------------*/
-@media screen and (max-width: 500px) {
-  .main_bottom .dwn_btn {
+@media screen and (max-width: 480px) {
+  header {
+    padding-bottom: 2rem;
+  }
+  .header_right .flex {
+    gap: 3rem;
+  }
+  h1 {
+    font-size: 1.8rem;
+  }
+  .main_bottom {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     gap: 2rem;
+  }
+  .dwn_btn {
     padding: 0.8em 1.5em;
+  }
+  .email_btn {
+    padding: 0.6rem 1.4rem;
+  }
+  .about_list {
+    width: 100%;
+  }
+  .about_content {
+    margin-top: 3.5rem;
+    gap: 2rem;
   }
 }
 
 /*---------------------------------------------------- 
-Screen - 1080px
+Screen - 400px
 ----------------------------------------------------*/
+@media screen and (max-width: 360px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  .about h2 {
+    font-size: 1.9rem;
+  }
+  .about_content {
+    margin-top: 2rem;
+  }
+  .social_links {
+    gap: 1.3rem;
+  }
+  .social_links a {
+    font-size: 1.2rem;
+  }
+  .about_content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
 /*# sourceMappingURL=responsive.css.map */

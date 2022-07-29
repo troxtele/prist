@@ -61,7 +61,6 @@ img {
   width: 100%;
 }
 
-
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -146,46 +145,46 @@ Main Area
 main {
   padding-top: 3.75rem;
   padding-bottom: 3rem;
-  h1 {
-    font-size: 2.8rem;
-    line-height: 1.45;
-    font-weight: 800;
-    padding-right: 3rem;
+}
+h1 {
+  font-size: 2.8rem;
+  line-height: 1.45;
+  font-weight: 800;
+  padding-right: 3rem;
+}
+h1 a:nth-of-type(1) {
+  color: #5393fe;
+  &:hover {
+    color: #4b84e5;
+    background-color: #e3efff;
   }
-  h1 a:nth-of-type(1) {
-    color: #5393fe;
-    &:hover {
-      color: #4b84e5;
-      background-color: #e3efff;
-    }
+}
+h1 a:nth-of-type(2) {
+  color: #f46b3f;
+  &:hover {
+    color: #dc6039;
+    background-color: #fde1d9;
   }
-  h1 a:nth-of-type(2) {
-    color: #f46b3f;
-    &:hover {
-      color: #dc6039;
-      background-color: #fde1d9;
-    }
+}
+h1 a:nth-of-type(3) {
+  color: #b57bff;
+  &:hover {
+    color: #a36fe6;
+    background-color: #f0e5ff;
   }
-  a:nth-of-type(3) {
-    color: #b57bff;
-    &:hover {
-      color: #a36fe6;
-      background-color: #f0e5ff;
-    }
+}
+h1 a:nth-of-type(4) {
+  color: #6cbb47;
+  &:hover {
+    color: #61a840;
+    background-color: #e2f1da;
   }
-  h1 a:nth-of-type(4) {
-    color: #6cbb47;
-    &:hover {
-      color: #61a840;
-      background-color: #e2f1da;
-    }
-  }
-  a:nth-of-type(5) {
-    color: #17b1b1;
-    &:hover {
-      color: #159f9f;
-      background-color: #d1efef;
-    }
+}
+a:nth-of-type(5) {
+  color: #17b1b1;
+  &:hover {
+    color: #159f9f;
+    background-color: #d1efef;
   }
 }
 
@@ -260,7 +259,6 @@ About section
   line-height: 1.8;
   margin-top: 4rem;
   gap: 5rem;
-
 }
 
 .social_links {

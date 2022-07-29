@@ -155,54 +155,54 @@ main {
   padding-bottom: 3rem;
 }
 
-main h1 {
+h1 {
   font-size: 2.8rem;
   line-height: 1.45;
   font-weight: 800;
   padding-right: 3rem;
 }
 
-main h1 a:nth-of-type(1) {
+h1 a:nth-of-type(1) {
   color: #5393fe;
 }
 
-main h1 a:nth-of-type(1):hover {
+h1 a:nth-of-type(1):hover {
   color: #4b84e5;
   background-color: #e3efff;
 }
 
-main h1 a:nth-of-type(2) {
+h1 a:nth-of-type(2) {
   color: #f46b3f;
 }
 
-main h1 a:nth-of-type(2):hover {
+h1 a:nth-of-type(2):hover {
   color: #dc6039;
   background-color: #fde1d9;
 }
 
-main a:nth-of-type(3) {
+h1 a:nth-of-type(3) {
   color: #b57bff;
 }
 
-main a:nth-of-type(3):hover {
+h1 a:nth-of-type(3):hover {
   color: #a36fe6;
   background-color: #f0e5ff;
 }
 
-main h1 a:nth-of-type(4) {
+h1 a:nth-of-type(4) {
   color: #6cbb47;
 }
 
-main h1 a:nth-of-type(4):hover {
+h1 a:nth-of-type(4):hover {
   color: #61a840;
   background-color: #e2f1da;
 }
 
-main a:nth-of-type(5) {
+a:nth-of-type(5) {
   color: #17b1b1;
 }
 
-main a:nth-of-type(5):hover {
+a:nth-of-type(5):hover {
   color: #159f9f;
   background-color: #d1efef;
 }
